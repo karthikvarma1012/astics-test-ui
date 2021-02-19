@@ -1,4 +1,4 @@
-# Astics Test UI
+# Project Test UI
 
 Open [Demo](https://h2poi.csb.app/) to view it in the browser.
 
