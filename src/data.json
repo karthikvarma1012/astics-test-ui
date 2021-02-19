@@ -1,0 +1,14 @@
+{
+  "1": {
+    "itemName": "Pencil",
+    "id": 1,
+    "price": 10,
+    "details": "Extra dark"
+  },
+  "2": {
+    "itemName": "Book",
+    "id": 2,
+    "price": 20,
+    "details": "Long lasting"
+  }
+}

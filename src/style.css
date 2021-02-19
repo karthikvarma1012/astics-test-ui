@@ -1,0 +1,215 @@
+/* Generat Styles */
+.width-wrapper {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  height: 100%;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+/* Login Page */
+.login-container, .registration-container {
+  height: 100%;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .login-form, .registration-container .registration-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+/* Login Page END */
+
+/* Input Component */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.input-container label {
+  margin-bottom: 4px;
+  font-family: sans-serif;
+}
+
+.input-container input {
+  border: 1px solid #a7a7a7;
+  padding: 8px;
+  font-family: sans-serif;
+}
+
+/* Input Component END */
+
+/* Button Component */
+.btn {
+  padding: 8px 12px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.btn.primary {
+  background-color: #5292f7;
+  color: white;
+}
+.btn.secondary:hover {
+  background-color: #a9a9a9;
+  color: white;
+}
+.btn.tertiary:hover {
+  background: none;
+}
+/* Button COmponent END */
+
+/* Header Component */
+.layout-header {
+  background-color: #80b918;
+  height: 60px;
+}
+
+.layout-header .width-wrapper {
+  height: 100%;
+}
+
+.layout-header .btn:hover {
+  color: white;
+}
+
+.layout-header .logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+@media screen and (max-width: 1049px) {
+  .layout-header {
+    padding: 0 16px;
+  }
+}
+
+/* Header COmponent END */
+
+/* Main */
+  main {
+    padding: 20px 0
+  }
+  @media screen and (max-width: 1049px) {
+    main {
+      padding: 20px 16px;
+    }
+  }
+/* Main END */
+
+/* Items List Container */
+.items-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 16px;
+  margin-top: 16px;
+}
+/* Items List Container */
+
+/* Item Component */
+.item-container {
+  border: 1px solid #e7e7e7;
+  padding: 16px;
+  border-radius: 9px;
+  position: relative;
+}
+.item-label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.item-price , .item-details-price{
+  font-size: 14px;
+  color: #999999;
+}
+.item-details-description {
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.item-details-label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.item-details-content-container {
+margin-top: 16px;
+}
+
+.item-detail-btn {
+  position : absolute;
+  top : 10px;
+  right: 30px;
+
+}
+.item-container .button-container {
+  margin-top: 20px;
+}
+
+.item-container .delete-icon-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;;
+}
+/* Item Component END */
+
+/* Dashboard */
+.btn-container {
+  text-align: end;
+}
+.sort-label {
+  cursor: pointer;
+  user-select: none;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-wrapper .input-container {
+  margin-bottom: 0;
+}
+.search-wrapper input {
+  margin-right: 16px;
+}
+.pagination-container {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.pagination-btn {
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border: 1px solid #a9a9a9;
+  cursor: pointer;
+}
+/* Dashboard END */
