@@ -13,7 +13,7 @@ const Layout = (props) => {
     <header className="layout-header">
       <div className="width-wrapper">
         <div className="flex jc-sb ai-c">
-          <div className="logo">Astics</div>
+          <div className="logo">Company logo</div>
           <Button className="btn tertiary" label="Logout" onClick={onLogoutButtonClick} />
         </div>
       </div>
